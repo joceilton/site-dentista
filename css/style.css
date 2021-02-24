@@ -1,0 +1,125 @@
+body {
+	background-color: #eee;
+	height: 100%;
+}
+
+.navbar {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggler {
+	border: 0;
+}
+
+.navbar-toggler:focus {
+	outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+#navbarHeader {
+	display: none;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+	width: 48px;
+}
+
+.menu-mobile {
+	padding: 20px;
+	display: none;
+	border-top: 1px #333 solid;
+	border-bottom: 1px #333 solid;
+}
+
+.cover-container {
+  display: flex;
+	/* The image used */
+  background-image: url("../img/background_banner.jpg");
+
+  align-items: center;
+  justify-content: center;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100vw;
+  height: 100vh;
+  
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+	.navbar-toggler {
+		display: block;
+	}
+
+	.menu-mobile {
+		display: block;
+	}
+
+	.menu-desktop {
+		display: none
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+.navbar-toggler {
+		display: block;
+	}
+
+	.menu-mobile {
+		display: none;
+	}
+
+	.menu-desktop {
+		display: none;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	.navbar-toggler {
+		display: none;
+	}
+
+	.menu-mobile {
+		display: none;
+	}
+
+	.menu-desktop {
+		display: block;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+.navbar-toggler {
+		display: none;
+	}
+
+	.menu-mobile {
+		display: none;
+	}
+
+	.menu-desktop {
+		display: block;
+	}
+
+}

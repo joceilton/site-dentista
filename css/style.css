@@ -1,6 +1,12 @@
 body {
 	background-color: #eee;
 	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header {
+	z-index: 999;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
 .navbar {
@@ -8,6 +14,10 @@ body {
 }
 
 .navbar-toggler {
+	position: absolute;
+	top: 10;
+	right: 0;
+	display: none;
 	border: 0;
 }
 
@@ -19,7 +29,7 @@ body {
 
 #navbarHeader {
 	display: none;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: #fff;
 }
 
 .logo {
@@ -49,15 +59,19 @@ body {
 
   width: 100vw;
   height: 100vh;
-  
-
 }
 
-/* Extra small devices (portrait phones, less than 576px)
- No media query for `xs` since this is the default in Bootstrap */
+.cover-container .cover-heading {
+	font-family: 'Akaya Telivigala', cursive;
+	color: #004080;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+.cover-container .cover-heading p.lead {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@media (max-width: 768px) {
 
 	.navbar-toggler {
 		display: block;
@@ -69,57 +83,6 @@ body {
 
 	.menu-desktop {
 		display: none
-	}
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-
-.navbar-toggler {
-		display: block;
-	}
-
-	.menu-mobile {
-		display: none;
-	}
-
-	.menu-desktop {
-		display: none;
-	}
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-	.navbar-toggler {
-		display: none;
-	}
-
-	.menu-mobile {
-		display: none;
-	}
-
-	.menu-desktop {
-		display: block;
-	}
-
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
-.navbar-toggler {
-		display: none;
-	}
-
-	.menu-mobile {
-		display: none;
-	}
-
-	.menu-desktop {
-		display: block;
 	}
 
 }

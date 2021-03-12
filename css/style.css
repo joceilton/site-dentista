@@ -29,6 +29,7 @@ body {
 
 .vertical-center .cover-heading p.lead {
 	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
 }
 
 .has-search .form-control {

@@ -99,6 +99,13 @@ body {
 	background-color: #fff;
 }
 
+.whatsapp {
+	background-color: #34af23;
+	padding: 8px 10px;
+	color: #fff;
+	border-radius: 10px;
+}
+
 section h1 {
 	margin: 0;
 	padding-bottom: 5px;

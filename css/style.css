@@ -27,7 +27,7 @@ body {
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 }
 
-.vertical-center p.descricao {
+p.descricao {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #fff;
 }

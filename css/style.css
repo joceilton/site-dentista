@@ -13,7 +13,6 @@ body {
  display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
   background-image: url("../img/background_banner.jpg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

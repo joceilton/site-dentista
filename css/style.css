@@ -1,8 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	background-color: #eee;
 	height: 100%;
 	font-family: 'Open Sans Condensed', sans-serif;
 	overflow-x: hidden;
+}
+
+.vertical-center {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  background-image: url("../img/background_banner.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical-center .cover-heading {
+	font-family: 'Akaya Telivigala', cursive;
+	color: #004080;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+
+.vertical-center .cover-heading p.lead {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
 
 .header {
@@ -56,36 +99,12 @@ body {
 	background-color: #fff;
 }
 
-.cover-container {
-  display: flex;
-	/* The image used */
-  background-image: url("../img/background_banner.jpg");
-
-  align-items: center;
-  justify-content: center;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  width: 100vw;
-  height: 100vh;
-}
-
-.cover-container .cover-heading {
+section h1 {
+	margin: 0;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border-bottom: 1px #ddd solid;
 	font-family: 'Akaya Telivigala', cursive;
-	color: #004080;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-}
-
-.cover-container .cover-heading p.lead {
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.servicos {
-	padding-top: 50px;
 }
 
 .titulo_servicos {
